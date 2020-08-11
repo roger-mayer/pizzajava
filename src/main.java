@@ -1,4 +1,4 @@
-import org.json.*;
+//import org.json.*;
 
 public class main {
     public String topping;
@@ -7,4 +7,6 @@ public class main {
         this.topping = topping;
     }
 
+//    JsonObject jsonObject = new JsonParser().parse("{\"name\": \"John\"}").getAsJsonObject();
+//    System.out.println(jsonObject.get("name").getAsString()); //John
 }
